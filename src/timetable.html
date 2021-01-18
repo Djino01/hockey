@@ -1,0 +1,147 @@
+@@include('inc/doc-start.html', {
+	"title": "Расписание"
+})
+
+@@include('inc/page-header.html', {
+  color: 'header--light'
+})
+
+<div class="page-top">
+	<div class="wrapper">
+		<div class="breadcrumbs">
+			<ul>
+				<li>
+					<a href="#">Главная</a>
+				</li>
+				<li>расписание</li>
+			</ul>
+		</div>
+		<div class="page-top__title h1">расписание</div>
+	</div>
+</div>
+
+<div class="timetable">
+	<div class="wrapper">
+		<div class="timetable__table">
+			<table>
+				<thead>
+					<tr>
+						<th>
+							<span>Группа начальной подготовки</span>
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>понедельник</td>
+						<td>20.00 — 21.30</td>
+					</tr>
+					<tr>
+						<td>Среда</td>
+						<td>20.00 — 21.30</td>
+					</tr>
+					<tr>
+						<td>Пятница</td>
+						<td>20.00 — 21.30</td>
+					</tr>
+					<tr>
+						<td>Воскресенье</td>
+						<td>20.00 — 21.30</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+
+<div class="main-gallery main-gallery_child">
+	<div class="wrapper">
+		<div class="main-gallery__top flex">
+			<div class="main-gallery__title h2">Фотогалерея</div>
+			<div class="main-gallery__arrows flex">
+				<div class="arrow arrow_prew flex-center">
+					<svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M8.23854 2.04323L6.80371 0.608398L0.107822 7.30429L0.107815 7.3043L6.8037 14.0002L8.23854 12.5654L2.97748 7.3043L8.23854 2.04323Z" fill="#133D6F"/>
+					</svg>
+				</div>
+				<div class="arrow arrow_next flex-center">
+					<svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M0.261456 11.9568L1.69629 13.3916L8.39218 6.69571L8.39219 6.6957L1.6963 -0.00018843L0.261463 1.43464L5.52252 6.6957L0.261456 11.9568Z" fill="#133D6F"/>
+					</svg>
+				</div>
+			</div>
+		</div>
+		<div class="main-gallery__slick swiper-container">
+			<div class="swiper-wrapper">
+				<div class="main-gallery__slide swiper-slide">
+					<a href="img/main-gallery/img-1.jpg" class="main-gallery__img img-cover" data-fancybox="main-gallery">
+						<img src="img/main-gallery/img-1.jpg" alt="">
+					</a>
+				</div>
+				<div class="main-gallery__slide swiper-slide">
+					<a href="img/main-gallery/img-2.jpg" class="main-gallery__img img-cover" data-fancybox="main-gallery">
+						<img src="img/main-gallery/img-2.jpg" alt="">
+					</a>
+				</div>
+				<div class="main-gallery__slide swiper-slide">
+					<a href="img/main-gallery/img-3.jpg" class="main-gallery__img img-cover" data-fancybox="main-gallery">
+						<img src="img/main-gallery/img-3.jpg" alt="">
+					</a>
+				</div>
+				<div class="main-gallery__slide swiper-slide">
+					<a href="img/main-gallery/img-4.jpg" class="main-gallery__img img-cover" data-fancybox="main-gallery">
+						<img src="img/main-gallery/img-4.jpg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="main-gallery__bottom">
+			<div class="main-gallery__arrows flex">
+				<div class="arrow arrow_prew flex-center">
+					<svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M8.23854 2.04323L6.80371 0.608398L0.107822 7.30429L0.107815 7.3043L6.8037 14.0002L8.23854 12.5654L2.97748 7.3043L8.23854 2.04323Z" fill="#133D6F"/>
+					</svg>
+				</div>
+				<div class="arrow arrow_next flex-center">
+					<svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M0.261456 11.9568L1.69629 13.3916L8.39218 6.69571L8.39219 6.6957L1.6963 -0.00018843L0.261463 1.43464L5.52252 6.6957L0.261456 11.9568Z" fill="#133D6F"/>
+					</svg>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="order order_bottom">
+	<div class="wrapper">
+		<div class="order__title h2">Записаться<br> на тренировку</div>
+		<form action="#" class="order__form flex">
+			<label class="order__label">
+				<div class="order__caption">Ваше имя</div>
+				<input type="text" name="name" class="order__field field" placeholder="">
+			</label>
+			<label class="order__label">
+				<div class="order__caption">Телефон*</div>
+				<input type="text" name="phone" class="order__field field phone-mask" placeholder="">
+			</label>
+			<label class="order__label order__label_big">
+				<div class="order__caption">Ваш комментарий</div>
+				<textarea class="order__field field"></textarea>
+			</label>
+			<div class="order__bottom flex">
+				<button class="order__btn btn btn_blue-big">Отправить заявку</button>
+				<div class="order__agreement">Нажимая на кнопку, вы даете согласие на обработку ваших персональных данных</div>
+			</div>
+		</form>
+		<a href="#top" class="to-top to-top_item flex-center">
+			<span>наверх</span>
+			<img src="img/icon/to-top.svg" alt="">
+		</a>
+	</div>
+</div>
+
+@@include('inc/modal.html')
+
+@@include('inc/page-footer.html')
+
+@@include('inc/doc-end.html')

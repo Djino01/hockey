@@ -1,0 +1,72 @@
+.workout {
+	padding-top: 58px;
+	&__row {
+		align-items: flex-start;
+		margin: 108px 25px 0;
+	}
+	&__coll {
+		width: 20%;
+		max-width: 177px;
+		text-align: center;
+	}
+	&__time {
+		font-family: "Din Pro", sans-serif;
+		font-size: 14px;
+		line-height: 140%;
+		letter-spacing: -0.02em;
+		text-transform: uppercase;
+		color: #f23a5b;
+		margin-bottom: 43px;
+	}
+	&__caption {
+		min-height: 30px;
+		font-size: 14px;
+		line-height: 110%;
+		letter-spacing: -0.02em;
+		text-transform: uppercase;
+		color: #000;
+		margin-bottom: 30px;
+	}
+	&__desc {
+		font-family: "Din Pro", sans-serif;
+		font-size: 16px;
+		line-height: 140%;
+		letter-spacing: -0.02em;
+		color: #9aa7b7;
+	}
+}
+@media (max-width: 1170px) {
+	.workout {
+		&__row {
+			margin: 60px 0px 0px;
+		}
+		&__time {
+			margin-bottom: 35px;
+		}
+	}
+}
+@media (max-width: 1010px) {
+	.workout {
+		&__scroll {
+			overflow-y: scroll;
+		}
+		&__row {
+			min-width: 980px;
+			margin: 40px 0px 0px;
+		}
+		&__time {
+			margin-bottom: 25px;
+		}
+	}
+}
+@media (max-width: 760px) {
+	.workout {
+		padding-top: 50px;
+		&__row {
+			margin: 40px -10px 20px;
+		}
+		&__caption {
+			margin-bottom: 28px;
+		}
+	}
+}

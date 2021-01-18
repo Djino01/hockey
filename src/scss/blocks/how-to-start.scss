@@ -1,0 +1,18 @@
+.how-to-start {
+	padding-bottom: 65px;
+	&__title {
+		margin-bottom: 42px;
+	}
+}
+@media (max-width: 1170px) {
+	.how-to-start {
+		padding-bottom: 60px;
+		&__title {
+			margin-bottom: 25px;
+		}
+	}
+}
+@media (max-width: 1010px) {
+}
+@media (max-width: 760px) {
+}

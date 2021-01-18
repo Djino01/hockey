@@ -1,0 +1,30 @@
+.technical-training {
+	padding-top: 138px;
+	&__title {
+		margin-bottom: 40px;
+	}
+}
+@media (max-width: 1170px) {
+	.technical-training {
+		padding-top: 100px;
+		&__title {
+			margin-bottom: 30px;
+		}
+	}
+}
+@media (max-width: 1010px) {
+	.technical-training {
+		padding-top: 80px;
+		&__title {
+			margin-bottom: 25px;
+		}
+	}
+}
+@media (max-width: 760px) {
+	.technical-training {
+		padding-top: 60px;
+		&__title {
+			margin-bottom: 20px;
+		}
+	}
+}

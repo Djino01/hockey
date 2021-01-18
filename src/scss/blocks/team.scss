@@ -1,0 +1,132 @@
+.team {
+	padding-top: 145px;
+	padding-bottom: 62px;
+	&__row {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 59px -10px 100px;
+	}
+	&__coll {
+		width: calc(33.333% - 20px);
+		margin: 0px 10px 20px;
+	}
+	&__img {
+		width: 100%;
+		height: 309.5px;
+		margin-bottom: 31px;
+		position: relative;
+		z-index: 10;
+		&:before {
+			content: "";
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-top: 0px solid transparent;
+			border-left: 15px solid #fff;
+			border-bottom: 10px solid transparent;
+			top: 0;
+			left: 0;
+			z-index: 10;
+		}
+		&:after {
+			content: "";
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-top: 10px solid transparent;
+			border-right: 15px solid #fff;
+			border-bottom: 0px solid transparent;
+			bottom: 0;
+			right: 0;
+			z-index: 10;
+		}
+	}
+	&__bottom {
+		padding-left: 12px;
+	}
+	&__name {
+		font-size: 20px;
+		line-height: 110%;
+		letter-spacing: -0.02em;
+		text-transform: uppercase;
+		color: #000000;
+		margin-bottom: 26px;
+	}
+	&__value {
+		max-width: 255px;
+		font-family: "Din Pro", sans-serif;
+		font-size: 18px;
+		line-height: 140%;
+		letter-spacing: -0.02em;
+		color: #617185;
+	}
+}
+@media (max-width: 1170px) {
+	.team {
+		&__img {
+			height: 265px;
+			margin-bottom: 30px;
+		}
+		&__bottom {
+			padding-left: 12px;
+		}
+		&__name {
+			font-size: 18px;
+			margin-bottom: 20px;
+		}
+		&__value {
+			font-size: 16px;
+		}
+	}
+}
+@media (max-width: 1010px) {
+	.team {
+		padding-top: 100px;
+		padding-bottom: 50px;
+		&__row {
+			margin: 40px -10px 60px;
+		}
+		&__img {
+			height: 220px;
+			margin-bottom: 25px;
+		}
+		&__bottom {
+			padding-left: 0px;
+		}
+		&__name {
+			font-size: 16px;
+		}
+	}
+}
+@media (max-width: 760px) {
+	.team {
+		padding-top: 51px;
+		padding-bottom: 52px;
+		&__title {
+			max-width: 240px;
+		}
+		&__row {
+			margin: 26px 0px 59px;
+			overflow: visible;
+		}
+		&__coll {
+			margin: 0px;
+		}
+		&__img {
+			height: 192px;
+			margin-bottom: 30px;
+			&:before {
+				border-left: 10px solid #fff;
+				border-bottom: 5px solid transparent;
+			}
+			&:after {
+				border-top: 5px solid transparent;
+				border-right: 10px solid #fff;
+			}
+		}
+		&__name {
+			font-size: 14px;
+			margin-bottom: 10px;
+		}
+	}
+}

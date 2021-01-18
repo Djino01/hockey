@@ -1,0 +1,80 @@
+@@include('inc/doc-start.html', {
+	"title": "Галерея"
+})
+
+@@include('inc/page-header.html', {
+  color: 'header--light'
+})
+
+<div class="page-top">
+	<div class="wrapper">
+		<div class="breadcrumbs">
+			<ul>
+				<li>
+					<a href="#">Главная</a>
+				</li>
+				<li>галерея</li>
+			</ul>
+		</div>
+		<div class="page-top__title h1">галерея</div>
+	</div>
+</div>
+
+<div class="gallery">
+	<div class="wrapper">
+		<div class="gallery__row flex">
+			<a href="img/gallery/img-1.jpg" class="gallery__coll img-cover" data-fancybox="gallery">
+				<img src="img/gallery/img-1.jpg" alt="">
+			</a>
+			<a href="img/gallery/img-2.jpg" class="gallery__coll img-cover" data-fancybox="gallery">
+				<img src="img/gallery/img-2.jpg" alt="">
+			</a>
+			<a href="img/gallery/img-3.jpg" class="gallery__coll img-cover" data-fancybox="gallery">
+				<img src="img/gallery/img-3.jpg" alt="">
+			</a>
+			<a href="img/gallery/img-4.jpg" class="gallery__coll img-cover" data-fancybox="gallery">
+				<img src="img/gallery/img-4.jpg" alt="">
+			</a>
+			<a href="img/gallery/img-5.jpg" class="gallery__coll img-cover" data-fancybox="gallery">
+				<img src="img/gallery/img-5.jpg" alt="">
+			</a>
+			<a href="img/gallery/img-6.jpg" class="gallery__coll img-cover" data-fancybox="gallery">
+				<img src="img/gallery/img-6.jpg" alt="">
+			</a>
+		</div>
+	</div>
+</div>
+
+<div class="order order_bottom">
+	<div class="wrapper">
+		<div class="order__title h2">Записаться<br> на тренировку</div>
+		<form action="#" class="order__form flex">
+			<label class="order__label">
+				<div class="order__caption">Ваше имя</div>
+				<input type="text" name="name" class="order__field field" placeholder="">
+			</label>
+			<label class="order__label">
+				<div class="order__caption">Телефон*</div>
+				<input type="text" name="phone" class="order__field field phone-mask" placeholder="">
+			</label>
+			<label class="order__label order__label_big">
+				<div class="order__caption">Ваш комментарий</div>
+				<textarea class="order__field field"></textarea>
+			</label>
+			<div class="order__bottom flex">
+				<button class="order__btn btn btn_blue-big">Отправить заявку</button>
+				<div class="order__agreement">Нажимая на кнопку, вы даете согласие на обработку ваших персональных данных</div>
+			</div>
+		</form>
+		<a href="#top" class="to-top to-top_item flex-center">
+			<span>наверх</span>
+			<img src="img/icon/to-top.svg" alt="">
+		</a>
+	</div>
+</div>
+
+@@include('inc/modal.html')
+
+@@include('inc/page-footer.html')
+
+@@include('inc/doc-end.html')

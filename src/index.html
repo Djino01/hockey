@@ -1,0 +1,372 @@
+@@include('inc/doc-start.html', {
+	"title": "Хоккейный клуб"
+})
+
+@@include('inc/page-header.html', {
+  color: 'header--light'
+})
+
+<div class="promo">
+	<div class="wrapper">
+		<div class="promo__caption">хоккей в Москве с возможностью участвовать в соревнованиях!</div>
+		<div class="promo__title">тренировки<br> по хоккею в москве для взрослых</div>
+		<div class="promo__bottom flex">
+			<div class="promo__arrow promo__arrow_left flex">
+				<img src="img/promo/arrow-left.svg" alt="">
+				<span>01</span>
+			</div>
+			<div class="swiper-pagination"></div>
+			<div class="promo__arrow promo__arrow_right flex">
+				<span>03</span>
+				<img src="img/promo/arrow-right.svg" alt="">
+			</div>
+		</div>
+	</div>
+	<div class="promo__slick swiper-container">
+		<div class="swiper-wrapper">
+			<div class="promo__slide swiper-slide">
+				<div class="promo__img img-cover">
+					<img src="img/promo/img-1.jpg" alt="">
+				</div>
+			</div>
+			<div class="promo__slide swiper-slide">
+				<div class="promo__img img-cover">
+					<img src="img/promo/img-2.jpg" alt="">
+				</div>
+			</div>
+			<div class="promo__slide swiper-slide">
+				<div class="promo__img img-cover">
+					<img src="img/promo/img-3.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="main-about">
+	<div class="wrapper main-about__wrap flex">
+		<div class="main-about__left">
+			<div class="main-about__title h3">О клубе</div>
+			<div class="main-about__desc text">
+				<p>Датой основания хоккейного клуба «Динамо» Москва принято считать 22 ноября 1946 года.</p>
+				<p>Однако многие игроки футбольного клуба «Динамо», игравшие зимой в «русский» хоккей, еще за 14 лет до старта национального чемпионата в составе сборной СССР принимали участие в поединках по «канадскому» хоккею против игроков немецкого «Фихте».</p>
+			</div>
+			<a href="#" class="link">подробнее</a>
+		</div>
+		<div class="main-about__right">
+			<div class="main-about__img img-cover">
+				<img src="img/main-about/img.jpg" alt="">
+			</div>
+			<a href="https://www.youtube.com/watch?v=Ziai7G38giY" class="play flex-center" data-fancybox="main-about">
+				<img src="img/icon/play.svg" alt="">
+			</a>
+		</div>
+	</div>
+</div>
+
+<div class="main-benefit">
+	<div class="wrapper">
+		<div class="main-benefit__title h2">Наши<br> преимущества</div>
+		<div class="main-benefit__row flex">
+			<div class="main-benefit__coll">
+				<div class="main-benefit__number">01</div>
+				<div class="main-benefit__desc desc">Уникальная программа тренировок, предназначенная специально для взрослых игроков.</div>
+			</div>
+			<div class="main-benefit__coll">
+				<div class="main-benefit__number">02</div>
+				<div class="main-benefit__desc desc">Тренерский состав: все тренеры — экс-игроки топовых московских хоккейных клубов, чемпионы России и Европы.</div>
+			</div>
+			<div class="main-benefit__coll">
+				<div class="main-benefit__number">03</div>
+				<div class="main-benefit__desc desc">Индивидуальный подход: перенимая опыт советской хоккейной школы, тренеры требовательны к игрокам и относятся к своим подопечным “по отечески”.</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="where-play">
+	<div class="wrapper where-play__wrap flex">
+		<div class="where-play__left">
+			<div class="where-play__slick">
+				<div class="where-play__slide">
+					<div class="where-play__img img-cover">
+						<img src="img/where-play/img-1.jpg" alt="">
+					</div>
+				</div>
+				<div class="where-play__slide">
+					<div class="where-play__img img-cover">
+						<img src="img/where-play/img-2.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="where-play__right">
+			<div class="where-play__icon img-cover">
+				<img src="img/where-play/icon.svg" alt="">
+			</div>
+			<div class="where-play__title h3">где мы играем</div>
+			<div class="where-play__text text">
+				<p>Наши тренеры разработали специальный комплекс упражнений, ориентированный на людей в возрасте 18–45 лет.</p>
+				<p>Сбалансированная по физической нагрузке программа представляет собой сеты упражнений, направленных на развитие техники ударов, приёма и контроля мяча, командных взаимодействий.</p>
+			</div>
+			<a href="#" class="where-play__btn btn btn_light-blue callback--js">записаться</a>
+		</div>
+	</div>
+</div>
+
+<div class="order">
+	<div class="wrapper">
+		<div class="order__title h2">Записаться<br> на тренировку</div>
+		<form action="#" class="order__form flex">
+			<label class="order__label">
+				<div class="order__caption">Ваше имя</div>
+				<input type="text" name="name" class="order__field field" placeholder="">
+			</label>
+			<label class="order__label">
+				<div class="order__caption">Телефон*</div>
+				<input type="text" name="phone" class="order__field field phone-mask" placeholder="">
+			</label>
+			<label class="order__label order__label_big">
+				<div class="order__caption">Ваш комментарий</div>
+				<textarea class="order__field field"></textarea>
+			</label>
+			<div class="order__bottom flex">
+				<button class="order__btn btn btn_blue-big">Отправить заявку</button>
+				<div class="order__agreement">Нажимая на кнопку, вы даете согласие на обработку ваших персональных данных</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="main-gallery">
+	<div class="wrapper">
+		<div class="main-gallery__top flex">
+			<div class="main-gallery__title h2">Фотогалерея</div>
+			<div class="main-gallery__arrows flex">
+				<div class="arrow arrow_prew flex-center">
+					<svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M8.23854 2.04323L6.80371 0.608398L0.107822 7.30429L0.107815 7.3043L6.8037 14.0002L8.23854 12.5654L2.97748 7.3043L8.23854 2.04323Z" fill="#133D6F"/>
+					</svg>
+				</div>
+				<div class="arrow arrow_next flex-center">
+					<svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M0.261456 11.9568L1.69629 13.3916L8.39218 6.69571L8.39219 6.6957L1.6963 -0.00018843L0.261463 1.43464L5.52252 6.6957L0.261456 11.9568Z" fill="#133D6F"/>
+					</svg>
+				</div>
+			</div>
+		</div>
+		<div class="main-gallery__slick swiper-container">
+			<div class="swiper-wrapper">
+				<div class="main-gallery__slide swiper-slide">
+					<a href="img/main-gallery/img-1.jpg" class="main-gallery__img img-cover" data-fancybox="main-gallery">
+						<img src="img/main-gallery/img-1.jpg" alt="">
+					</a>
+				</div>
+				<div class="main-gallery__slide swiper-slide">
+					<a href="img/main-gallery/img-2.jpg" class="main-gallery__img img-cover" data-fancybox="main-gallery">
+						<img src="img/main-gallery/img-2.jpg" alt="">
+					</a>
+				</div>
+				<div class="main-gallery__slide swiper-slide">
+					<a href="img/main-gallery/img-3.jpg" class="main-gallery__img img-cover" data-fancybox="main-gallery">
+						<img src="img/main-gallery/img-3.jpg" alt="">
+					</a>
+				</div>
+				<div class="main-gallery__slide swiper-slide">
+					<a href="img/main-gallery/img-4.jpg" class="main-gallery__img img-cover" data-fancybox="main-gallery">
+						<img src="img/main-gallery/img-4.jpg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="main-gallery__bottom">
+			<div class="main-gallery__arrows flex">
+				<div class="arrow arrow_prew flex-center">
+					<svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M8.23854 2.04323L6.80371 0.608398L0.107822 7.30429L0.107815 7.3043L6.8037 14.0002L8.23854 12.5654L2.97748 7.3043L8.23854 2.04323Z" fill="#133D6F"/>
+					</svg>
+				</div>
+				<div class="arrow arrow_next flex-center">
+					<svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M0.261456 11.9568L1.69629 13.3916L8.39218 6.69571L8.39219 6.6957L1.6963 -0.00018843L0.261463 1.43464L5.52252 6.6957L0.261456 11.9568Z" fill="#133D6F"/>
+					</svg>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="faq">
+	<div class="wrapper">
+		<div class="faq__flex flex">
+			<div class="faq__title h2">как начать</div>
+			<a href="#" class="faq__btn btn btn_white">подробнее</a>
+		</div>
+		<div class="faq__body">
+			<div class="faq__box">
+				<div class="faq__top flex">
+					<div class="faq__number">1</div>
+					<div class="faq__caption">Внимательно изучите расписание тренировок на сайте</div>
+					<div class="faq__arrow svg-contain">
+						<svg width="30" height="17" viewBox="0 0 30 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M1.41421 0.434908L0 1.84912L13.435 15.2841L14.8492 16.6984L16.2635 15.2841L29.6985 1.84912L28.2843 0.434908L14.8492 13.8699L1.41421 0.434908Z" fill="#133D6F"/>
+						</svg>
+					</div>
+				</div>
+				<div class="faq__block">
+					<p>Вам необходимо выбрать удобное время и площадку из представленных. Кто знает, может, один из наших стадионов находится как раз у вас под боком?</p>
+				</div>
+			</div>
+			<div class="faq__box">
+				<div class="faq__top flex">
+					<div class="faq__number">2</div>
+					<div class="faq__caption">Запишитесь на тренировку</div>
+					<div class="faq__arrow svg-contain">
+						<svg width="30" height="17" viewBox="0 0 30 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M1.41421 0.434908L0 1.84912L13.435 15.2841L14.8492 16.6984L16.2635 15.2841L29.6985 1.84912L28.2843 0.434908L14.8492 13.8699L1.41421 0.434908Z" fill="#133D6F"/>
+						</svg>
+					</div>
+				</div>
+				<div class="faq__block">
+					<p>Вам необходимо выбрать удобное время и площадку из представленных. Кто знает, может, один из наших стадионов находится как раз у вас под боком?</p>
+				</div>
+			</div>
+			<div class="faq__box">
+				<div class="faq__top flex">
+					<div class="faq__number">3</div>
+					<div class="faq__caption">Приезжайте в назначенный день по адресу</div>
+					<div class="faq__arrow svg-contain">
+						<svg width="30" height="17" viewBox="0 0 30 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M1.41421 0.434908L0 1.84912L13.435 15.2841L14.8492 16.6984L16.2635 15.2841L29.6985 1.84912L28.2843 0.434908L14.8492 13.8699L1.41421 0.434908Z" fill="#133D6F"/>
+						</svg>
+					</div>
+				</div>
+				<div class="faq__block">
+					<p>Вам необходимо выбрать удобное время и площадку из представленных. Кто знает, может, один из наших стадионов находится как раз у вас под боком?</p>
+				</div>
+			</div>
+			<div class="faq__box">
+				<div class="faq__top flex">
+					<div class="faq__number">4</div>
+					<div class="faq__caption">Выходите на поле и покажите себя во всей силе и мощи!</div>
+					<div class="faq__arrow svg-contain">
+						<svg width="30" height="17" viewBox="0 0 30 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M1.41421 0.434908L0 1.84912L13.435 15.2841L14.8492 16.6984L16.2635 15.2841L29.6985 1.84912L28.2843 0.434908L14.8492 13.8699L1.41421 0.434908Z" fill="#133D6F"/>
+						</svg>
+					</div>
+				</div>
+				<div class="faq__block">
+					<p>Вам необходимо выбрать удобное время и площадку из представленных. Кто знает, может, один из наших стадионов находится как раз у вас под боком?</p>
+				</div>
+			</div>
+			<div class="faq__box">
+				<div class="faq__top flex">
+					<div class="faq__number">5</div>
+					<div class="faq__caption">Общайтесь с новыми людьми и заводите полезные знакомства</div>
+					<div class="faq__arrow svg-contain">
+						<svg width="30" height="17" viewBox="0 0 30 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M1.41421 0.434908L0 1.84912L13.435 15.2841L14.8492 16.6984L16.2635 15.2841L29.6985 1.84912L28.2843 0.434908L14.8492 13.8699L1.41421 0.434908Z" fill="#133D6F"/>
+						</svg>
+					</div>
+				</div>
+				<div class="faq__block">
+					<p>Вам необходимо выбрать удобное время и площадку из представленных. Кто знает, может, один из наших стадионов находится как раз у вас под боком?</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="main-info">
+	<div class="wrapper">
+		<div class="main-info__top flex">
+			<div class="main-info__title h2">Как проходят<br> тренировки</div>
+			<a href="#" class="main-info__btn btn btn_red callback--js">записаться</a>
+		</div>
+		<div class="main-info__scroll">
+			<div class="main-info__row flex">
+				<div class="main-info__coll">
+					<div class="main-info__time">10 мин</div>
+					<div class="main-info__caption">Разминка</div>
+					<div class="main-info__desc">Разогрев основных мышечных групп</div>
+				</div>
+				<div class="main-info__coll">
+					<div class="main-info__time">20 мин</div>
+					<div class="main-info__caption">Техническая подготовка</div>
+					<div class="main-info__desc">Работа с шайбой, тактико-технические упражнения на командные взаимодействия</div>
+				</div>
+				<div class="main-info__coll">
+					<div class="main-info__time">20 мин</div>
+					<div class="main-info__caption">Функциональная подготовка</div>
+					<div class="main-info__desc">Наиболее интенсивная часть тренировки, направленная на развитие основных мышечных групп и повышение общей и специальной физической подготовки</div>
+				</div>
+				<div class="main-info__coll">
+					<div class="main-info__time">20 мин</div>
+					<div class="main-info__caption">Игра в хоккей</div>
+					<div class="main-info__desc">Без оффсайдов, подкатов, ругани и остановок</div>
+				</div>
+				<div class="main-info__coll">
+					<div class="main-info__time">10 мин</div>
+					<div class="main-info__caption">Заминка<br> и растяжка</div>
+					<div class="main-info__desc">Раcтяжка основных мышечных групп, приведение в норму пульса и температуры тела.</div>
+				</div>
+			</div>
+		</div>
+		<div class="main-info__bottom">
+			<a href="#" class="main-info__btn btn btn_red callback--js">подробнее</a>
+		</div>
+	</div>
+</div>
+
+<div class="team">
+	<div class="wrapper">
+		<div class="team__title h2">Тренерский состав</div>
+		<div class="team__row swiper-container">
+			<div class="swiper-wrapper">
+				<div class="team__coll swiper-slide">
+					<div class="team__item">
+						<div class="team__img img-cover">
+							<img src="img/team/img-1.jpg" alt="">
+						</div>
+						<div class="team__bottom">
+							<div class="team__name">Сергей иванов</div>
+							<div class="team__value">Заслуженный тренер России</div>
+						</div>
+					</div>
+				</div>
+				<div class="team__coll swiper-slide">
+					<div class="team__item">
+						<div class="team__img img-cover">
+							<img src="img/team/img-2.jpg" alt="">
+						</div>
+						<div class="team__bottom">
+							<div class="team__name">Алексей Кобелев</div>
+							<div class="team__value">Мастер спорта</div>
+						</div>
+					</div>
+				</div>
+				<div class="team__coll swiper-slide">
+					<div class="team__item">
+						<div class="team__img img-cover">
+							<img src="img/team/img-3.jpg" alt="">
+						</div>
+						<div class="team__bottom">
+							<div class="team__name">Иван высоцкий</div>
+							<div class="team__value">Мастер спорта международного класса</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a href="#top" class="to-top flex-center">
+			<span>наверх</span>
+			<img src="img/icon/to-top.svg" alt="">
+		</a>
+	</div>
+</div>
+
+@@include('inc/modal.html')
+
+@@include('inc/page-footer.html')
+
+@@include('inc/doc-end.html')

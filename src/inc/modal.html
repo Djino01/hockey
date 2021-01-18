@@ -1,0 +1,30 @@
+<div id="callback-modal" class="callback-modal modal" style="display: none;">
+	<div class="modal__closed flex-center svg-contain" data-fancybox-close>
+		<svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path fill-rule="evenodd" clip-rule="evenodd" d="M15.2014 14.0751L26.9993 2.27719L25.2978 0.575684L13.4999 12.3736L1.70205 0.575714L0.000551641 2.27722L11.7984 14.0751L-0.000488281 25.8739L1.70101 27.5754L13.4999 15.7766L25.2988 27.5755L27.0003 25.874L15.2014 14.0751Z" fill="white"/>
+		</svg>
+	</div>
+	<div class="modal__body">
+		<div class="modal__title">Записаться на тренировку</div>
+		<div class="order order_modal">
+			<form action="#" class="order__form flex">
+				<label class="order__label">
+					<div class="order__caption">Ваше имя</div>
+					<input type="text" name="name" class="order__field field" placeholder="">
+				</label>
+				<label class="order__label">
+					<div class="order__caption">Телефон*</div>
+					<input type="text" name="phone" class="order__field field phone-mask" placeholder="">
+				</label>
+				<label class="order__label order__label_big">
+					<div class="order__caption">Ваш комментарий</div>
+					<textarea class="order__field field"></textarea>
+				</label>
+				<div class="order__bottom flex">
+					<button class="order__btn btn btn_blue-big">Отправить заявку</button>
+					<div class="order__agreement">Нажимая на кнопку, вы даете согласие на обработку ваших персональных данных</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div><!-- end callback-modal -->
