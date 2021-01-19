@@ -8,6 +8,10 @@ swiperHome.each(function () {
 		speed: 1000,
 		iOSEdgeSwipeDetection: true,
 		initialSlide: 0,
+		autoplay: {
+			delay: 3000,
+			disableOnInteraction: true,
+		},
 		pagination: {
 			el: '.swiper-pagination',
 			type: 'progressbar',

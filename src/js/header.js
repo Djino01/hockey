@@ -14,14 +14,14 @@ $(".to-top").on("click", function () {
 });
 
 if ($(window).width() <= '1010'){
-	$(".header .menu-item-has-children a").on("click", function(e){
+	$(".header .menu-item-has-children>a").on("click", function(e){
 	  e.preventDefault();
 	  $(this).parent().find("ul").slideToggle(400);
 	});
 }
 
 if ($(window).width() <= '760'){
-	$(".footer .menu-item-has-children a").on("click", function(e){
+	$(".footer .menu-item-has-children>a").on("click", function(e){
 	  e.preventDefault();
 	  $(this).parent().find("ul").slideToggle(400);
 	});
